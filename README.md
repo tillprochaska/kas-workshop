@@ -16,6 +16,8 @@ Wir arbeiten mit einem Auszug der Daten, die der [Bundestag zu namentlichen Abst
 #### Details zu einer bestimmten Abstimmung
 `http://kas-workshop-api.netlify.com/polls/{id}.json`
 
+(Die Daten haben wir über die Schnittstelle des [Democracy-Projektes](https://www.democracy-deutschland.de/) zusammengestellt. Vielen Dank dafür!)
+
 ## Referenzen & Hilfe
 * HTML-Referenz: [englisch](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference), [deutsch](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference)
 * Javascript-Referenz: [englisch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference), [deutsch](https://developer.mozilla.org/de/docs/Web/HTML/Referenz)
