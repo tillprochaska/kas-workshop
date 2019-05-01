@@ -1,5 +1,7 @@
 # Coding-Workshop
 
+Dieses Repository enthält alle wichtigen Informationen für die Coding-Übung während des Workshops. Wir wollen hier außerdem den Quelltext, den ihr während des Workshops schreibt, versionieren.
+
 * [Der Datensatz](#der-datensatz)
 * [Referenzen & Hilfe](#referenzen--hilfe)
 * [Code-Grundgerüst](#code-grundgerüst)
@@ -9,10 +11,10 @@
 Wir arbeiten mit einem Auszug der Daten, die der [Bundestag zu namentlichen Abstimmungen bereitstellt](https://www.bundestag.de/abstimmung). Diese Daten stellen wir über eine einfache Schnittstelle (auch *API* genannt) bereit, die wir während des Seminars abfragen werden.
 
 #### Liste aller verfügbaren Abstimmungen
-`http://kas-workshop-api.netlify.com/polls/`
+`http://kas-workshop-api.netlify.com/polls/index.json`
  
 #### Details zu einer bestimmten Abstimmung
-`http://kas-workshop-api.netlify.com/polls/(:id)`
+`http://kas-workshop-api.netlify.com/polls/{id}.json`
 
 ## Referenzen & Hilfe
 * HTML-Referenz: [englisch](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference), [deutsch](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference)
