@@ -1,29 +1,56 @@
-# kas-workshop
+# Coding-Workshop
 
+* [Der Datensatz](#der-datensatz)
+* [Referenzen & Hilfe](#referenzen--hilfe)
+* [Code-Grundgerüst](#code-grundgerüst)
+* [Zum Weiterentwickeln nach dem Seminar](#zum-weiterentwickeln-nach-dem-seminar)
 
-Basic HTML file:
+## Der Datensatz
+Wir arbeiten mit einem Auszug der Daten, die der [Bundestag zu namentlichen Abstimmungen bereitstellt](https://www.bundestag.de/abstimmung). Diese Daten stellen wir über eine einfache Schnittstelle (auch *API* genannt) bereit, die wir während des Seminars abfragen werden.
+
+#### Liste aller verfügbaren Abstimmungen
+`http://kas-workshop-api.netlify.com/polls/`
+ 
+#### Details zu einer bestimmten Abstimmung
+`http://kas-workshop-api.netlify.com/polls/(:id)`
+
+## Referenzen & Hilfe
+* HTML-Referenz: [englisch](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference), [deutsch](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference)
+* Javascript-Referenz: [englisch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference), [deutsch](https://developer.mozilla.org/de/docs/Web/HTML/Referenz)
+* [StackOverflow](https://stackoverflow.com/) ist die unter EntwicklerInnen wohl beliebteste QA-Webseite. Die meisten Fragen hatte schon einmal eine andere Person. Und für viele dieser Fragen gibt es Antworten auf StackOverflow.
+
+## Code-Grundgerüst
+
+HTML-Grundgerüst (`index.html`):
 
 ```html
 <!DOCTYPE html>
 <html>
 <head>
   <title>KAS Coding Workshop</title>
+  <link href="./index.css" rel="stylesheet" />
 </head>
 <body>
-  <input type="text" placeholder="Suche nach Namen oder Wahlkreis" />
-  <div class="result"></div>
+  
+  <input type="text" placeholder="Nach Namen oder Wahlkreis suchen…" />
+  
+  <div class="wrapper">
+    Hello World!
+  </div>
+  
   <script src="./index.js" ></script>
+  
 </body>
 </html>
 ```
 
-Basic JS file:
+Javascript-Grundgerüst (`index.js`):
 
 ```js
-console.log("Hello World!")
+console.log('Hello World!')
 ```
 
-Basic CSS file:
+CSS-Grundgerüst (`index.css`):
 
 ```css
 * {
@@ -32,29 +59,36 @@ Basic CSS file:
   box-sizing: border-box;
 }
 
-body {
-  padding: 1.5rem;
+html {
   font-family: system-ui;
-  20px;
   line-height: 1.5;
 }
 
-input {
-  width: 100%;
-  font-size: 1rem;
-  padding: .75rem;
+body {
+  max-width: 35rem;
+  margin: 0 auto;
+  padding: 1.5rem;
 }
 
-.result {
-  padding: 1.5rem 0;
-}
-
-.result div + div {
-  margin-top: .75rem;
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: .75rem;
 }
 
 h2 {
   font-size: 1rem;
   margin: 0;
+  margin-top: .75rem;
+}
+
+input {
+  width: 100%;
+  font-size: 1rem;
+  margin: .75rem 0;
+  padding: .75rem;
 }
 ```
+
+## Zum Weiterentwickeln nach dem Seminar:
+
+* *Mozilla*, das Unternehmen, das den Firefox-Browser entwickelt, hat nicht nur für viele Webtechnologien eine umfangreiche Referenz zusammengestellt, sondern bietet für Einsteiger auch ein Tutorial an, das Schritt für Schritt in die Details einführt: *[Getting started with the web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web)*
