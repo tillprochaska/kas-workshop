@@ -96,3 +96,5 @@ input {
 ## Zum Weiterentwickeln nach dem Seminar:
 
 * *Mozilla*, das Unternehmen, das den Firefox-Browser entwickelt, hat nicht nur für viele Webtechnologien eine umfangreiche Referenz zusammengestellt, sondern bietet für Einsteiger auch ein Tutorial an, das Schritt für Schritt in die Details einführt: *[Getting started with the web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web)*
+
+* [*Observable*](https://observablehq.com) ist ein Online-Dienst zum erstellen interaktiver Notebooks. Notebooks können u. a. Text, Visualisierung und auch Javascript-Code enthalten. Der Code kann direkt im Browser bearbeitet werden; Ergebnisse sind direkt sichtbar. Beispielsweise gibt es z. B. eine [kleine, interaktive Einführung in die Javascript-Programmiersprache](https://observablehq.com/@uwdata/a-minimal-introduction-to-javascript-and-observable). Ein ähnliches Tool, das schon etwas länger existiert, sind [Jupyter Notebooks](https://jupyter.org/).
