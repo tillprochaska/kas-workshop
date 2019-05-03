@@ -101,4 +101,4 @@ input {
 
 * CSS behandeln wir in diesem Workshop nicht explizit. Wer sehen möchte, was mit CSS alles möglich ist, sollte sich [*CSS Zen Garden*](https://www.csszengarden.com/) ansehen. Das Projekt versammelt eine Reihe von ganz unterschiedlichen Layouts. Der Cloud: Jedes dieser Layouts basiert auf dem gleichen HTML-Code. Die unterschiedliche Gestaltung wird lediglich durch anderen CSS-Code erreicht.
 
-* Das Buch [*Git for Humans*](https://abookapart.com/products/git-for-humans) bietet einen tiefergehenden Einstieg in Git, ohne dabei technisches Vorwissen anzunehmen.
+* Das Buch [*Git for Humans*](https://abookapart.com/products/git-for-humans) bietet einen tiefergehenden Einstieg in Git, ohne dabei technisches Vorwissen anzunehmen. Auch als E-Book erhältlich.
