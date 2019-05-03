@@ -5,6 +5,7 @@ Dieses Repository enthält alle wichtigen Informationen für die Coding-Übung w
 * [Der Datensatz](#der-datensatz)
 * [Referenzen & Hilfe](#referenzen--hilfe)
 * [Code-Grundgerüst](#code-grundgerüst)
+* [Tools aus dem Workshop](#tools-aus-dem-workshop)
 * [Zum Weiterentwickeln nach dem Seminar](#zum-weiterentwickeln-nach-dem-seminar)
 
 ## Der Datensatz
@@ -93,7 +94,15 @@ input {
 }
 ```
 
-## Zum Weiterentwickeln nach dem Seminar:
+## Tools aus dem Workshop
+
+* [*Git*](git-scm.org) ist die in der Programmier-Community wahrscheinlich am weitesten verbreitete Software zur Versionsverwaltung. Sie lässt sich aber nicht nur mit Quelltext verwenden. Viele Menschen verwenden sie auch, um wissenschaftliche Aufsätze, Dokumentationen (oder auch Einkaufslisten) zu versionieren. Wer einmal mit ProgramiererInnen zusammenarbeitet, wird mit hoher Wahrscheinlichkeit auch in Kontakt mit Git kommen.
+
+* [*GitHub*](https://github.com) ist ein soziales Netzwerk – aber für die Zusammenarbeit an Quelltext. Über eine einfache Webanwendung stellt GitHub viele praktische Kollaborationstools bereit, die die gemeinsame Arbeit an mit Git verwalteten Softwareprojekten vereinfachen.
+
+* Die [*Firefox DevTools*](https://mozilladevelopers.github.io/playground/debugger/) und [*Chrome DevTools*](https://developers.google.com/web/tools/chrome-devtools) sind in jeder Firefox- und Chrome-Version enthalten. Die DevTools sind ein unerlässliches Werkzeug bei der Entwicklung von Webseiten und Webanwendungen. Sie ermöglichen es u. a., den Quelltext von Webseiten und alle Dateien, die eine Webseite lädt, einzusehen, den Quelltext zu ändern und die Auswirkungen der Änderungen zu beobachten, Webanwendungen in verschiedenen Displaygrößen zu testen, Fehler in Javascript-Programmen zu finden, …
+
+## Zum Weiterentwickeln nach dem Seminar
 
 * *Mozilla*, das Unternehmen, das den Firefox-Browser entwickelt, hat nicht nur für viele Webtechnologien eine umfangreiche Referenz zusammengestellt, sondern bietet für Einsteiger auch ein Tutorial an, das Schritt für Schritt und mit interaktiven Beispielen in die Details einführt: *[Getting started with the web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web)*
 
