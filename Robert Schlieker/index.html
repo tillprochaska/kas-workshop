@@ -3,16 +3,44 @@
 <head>
   <title>KAS Coding Workshop</title>
   <link href="./index.css" rel="stylesheet" />
+
+  <script
+			  src="https://code.jquery.com/jquery-3.4.1.min.js"
+			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			  crossorigin="anonymous"></script>
 </head>
 <body>
   
+  <h1 id="Abstimmung"></h1>
+
   <input type="text" placeholder="Nach Namen oder Wahlkreis suchen…" />
-  
-  <div class="wrapper">
-    Hello World!
-  </div>
+  <button>Anzeigen</button>
+
+   <table style="width:100%">
+   		<thead>
+  			<tr>
+    			<th>Name</th>
+    			<th>Partei</th>
+   				<th>Wahlkreis</th>
+    			<th>Stimme</th>
+  			</tr>
+		</thead>
+  		<!-- <tbody id="Inhalt2"> -->
+  		<tbody id="abgeordnete">
+  		</tbody>
+
+</table> 
+
+
   
   <script src="./index.js" ></script>
-  
+
+
+<!--/*Programmierziel Resultate-Seite:
+1. mit Javascript Reaktion auf Button-Klick: 
+2. Kein Inhalt in Eingabefeld: keine Aktion
+   Inhalt: Auslesen von Eingabefeld
+3. Im Datensatz ("name", "constituency") nach Inhalt Eingabefeld suchen
+ */-->   
 </body>
 </html>

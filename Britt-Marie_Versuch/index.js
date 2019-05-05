@@ -17,6 +17,11 @@ el.addEventListener('input', function (evt) {
         return name.indexOf(inputvalue) !== -1
         });
 
-console.log(result);
+var list = document.querySelector("ul");
+
+var listItems = result.map( item => `<li>${item.name}: <span class="${item.vote}">${item.vote}</span></li>`)
+console.log(listItems)
+list.innerHTML = listItems.join('');
+
     });
 });
