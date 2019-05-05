@@ -2,28 +2,33 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 html {
   font-family: system-ui;
   line-height: 1.5;
+  color: rgb(52, 61, 81)
 }
 
 body {
   max-width: 35rem;
   margin: 0 auto;
   padding: 1.5rem;
+  color: rgb(25, 18, 73)
 }
 
 h1 {
   font-size: 1.5rem;
   margin-bottom: .75rem;
+  color: rgb(25, 18, 73)
 }
 
 h2 {
   font-size: 1rem;
   margin: 0;
   margin-top: .75rem;
+  color: rgb(25, 18, 73)
 }
 
 input {
@@ -31,4 +36,21 @@ input {
   font-size: 1rem;
   margin: .75rem 0;
   padding: .75rem;
+  color: rgb(38, 67, 137)
+}
+span.ja {
+  color: green;
+  
+}
+
+span.na {
+  color: blue;
+}
+
+span.enthalten {
+  color: gray;
+}
+
+span.nein {
+  color: red;
 }
