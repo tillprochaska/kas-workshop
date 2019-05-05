@@ -1,0 +1,9 @@
+codepenindex.css
+
+$blue: #F5204E;
+
+body {
+  background-color: $blue;
+}
+h1 { font-family:Arial; 
+color: Maroon;}
