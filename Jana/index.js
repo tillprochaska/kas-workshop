@@ -6,5 +6,6 @@ fetch('https://kas-workshop-api.netlify.com/polls/2.json')
   })
   .then(function(myJson) {
     console.log(myJson.title);
+    console.log(myJson.votes);
   })
 
