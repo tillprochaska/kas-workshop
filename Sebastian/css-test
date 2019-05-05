@@ -1,0 +1,10 @@
+button {
+  font-family: Arial;
+  font-size: 18px;
+  background-color: rgb(207, 99, 142);
+}
+h1 {
+  font-size: 20px;
+  color: red;
+  text-align: center;
+}
