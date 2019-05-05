@@ -13,6 +13,7 @@ body {
   max-width: 35rem;
   margin: 0 auto;
   padding: 1.5rem;
+  background-color: rgb(227, 227, 227);
 }
 
 h1 {
