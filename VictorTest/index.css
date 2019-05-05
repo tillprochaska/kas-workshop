@@ -1,0 +1,19 @@
+h1 {
+  font-family: Courier;
+  font-size: 50px;
+}
+h2 {
+  font-family: Courier;
+  font-size: 100px;
+  color: Blue;
+}
+h3 {
+  font-family: Courier;
+  font-size: 50px;
+  color: Blue;
+}
+button {
+  font-family: Arial;
+  font-size: 50px;
+  color: Purple;
+}
