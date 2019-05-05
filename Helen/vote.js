@@ -10,3 +10,8 @@ fetch('https://kas-workshop-api.netlify.com/polls/2.json')
 	console.log(myJson["title"]);
 	console.log(myJson.title);
 });
+
+
+function test(a, b){
+	return a*b;
+}
