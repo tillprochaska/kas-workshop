@@ -1,0 +1,20 @@
+Index.css
+h1 {
+  font-family: Arial;
+  font-size: 20px
+}
+h2{
+  font-family: Arial;
+  font-size: 10px;
+}
+
+button{
+  font-family: Calibri;
+  font-size: 20px;
+    color: white;
+  background: pink;
+}
+
+body{
+  background-color: Chartreuse;
+}
