@@ -1,0 +1,20 @@
+<!-- /* Colorcodes CSS: https://www.w3schools.com/cssref/css_colors.asp */-->
+<!-- /* Info programming: https://github.com/tillprochaska/kas-workshop */-->
+
+body {
+ background-color: #a3d5d3; 	<!-- /*background settings*/ -->
+}
+h1 {							<!-- /*header settings*/ -->
+  font-family: Arial;
+  font-size: 20px;
+  color: Red;
+}
+
+h2 {							<!-- /*subheader settings*/ -->
+  font-family: Arial;
+  font-size: 10px;
+}
+
+button {						<!-- /*button settings*/ -->
+  font-family: Arial;
+}

@@ -1,10 +1,16 @@
+h1 {
+  font-size: 20px;
+  color: red;
+  text-align: center;
+}
 button {
   font-family: Arial;
   font-size: 18px;
   background-color: rgb(207, 99, 142);
 }
-h1 {
-  font-size: 20px;
-  color: red;
-  text-align: center;
+body {
+  font-family: Helvetica;
+  font-size: 12px;
+  color: blue;
+  text-align: right;
 }
