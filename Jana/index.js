@@ -38,4 +38,5 @@ myJson.votes.forEach(function(vote){
 string.includes(substring)
 
 
+
   
