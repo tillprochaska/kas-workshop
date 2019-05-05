@@ -16,7 +16,8 @@ body {
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-family:arial;
+  font-size: 1.3rem;
   margin-bottom: .75rem;
 }
 
@@ -34,8 +35,28 @@ input {
 }
 
 
-table,
-td,
-th {
-  border:1px solid black;
+table {
+  border-collapse: separate;
+  border-spacing: 0.2em;
+  font-family: arial;
+}
+  
+th,td {
+  padding: 0.2em 0.5em;
+  border-radius: 0.1em;  
+}  
+
+thead th {
+  background-color: #ffebe6;
+  color: #c32e04;
+}
+
+td {
+  font-style:italic;
+  text-align: right;
+  box-shadow: inset 1px 3px 5px -3px rgba(0,0,0,0.5);
+}   
+
+td:empty{
+  box-shadow: none;
 }
