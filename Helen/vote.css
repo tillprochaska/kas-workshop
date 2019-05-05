@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: system-ui;
+  line-height: 1.5;
+}
+
+body {
+  max-width: 35rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: .75rem;
+}
+
+h2 {
+  font-size: 1rem;
+  margin: 0;
+  margin-top: .75rem;
+}
+
+input {
+  width: 100%;
+  font-size: 1rem;
+  margin: .75rem 0;
+  padding: .75rem;
+}
